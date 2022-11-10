@@ -1,6 +1,4 @@
-// TODO: Change to TypeScript (Fucking JavaScript)
-
-module.exports = {
+export default {
   title: 'citation docs',
   description: 'Discord Bot to display preview of message links',
   lang: 'ja-JP',
