@@ -1,0 +1,33 @@
+name: build
+
+on:
+  pull_request:
+    paths-ignore:
+      - '**.md'
+      - '**.yml'
+
+jobs:
+  build:
+    name: Build citation.m2en.dev
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          cache: npm
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Build
+        run: yarn build
+
+
