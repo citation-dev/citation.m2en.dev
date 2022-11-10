@@ -36,12 +36,7 @@ module.exports = {
     sidebar: {
       '/docs/': [
         {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
+          title: 'Docs',
         }
       ],
     },
