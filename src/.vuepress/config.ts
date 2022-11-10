@@ -1,6 +1,6 @@
-// TODO: Change to TypeScript (Fucking JavaScript)
+import {defaultTheme} from "vuepress";
 
-module.exports = {
+export default {
   title: 'citation docs',
   description: 'Discord Bot to display preview of message links',
   lang: 'ja-JP',
@@ -23,40 +23,37 @@ module.exports = {
     },
   },
 
-  themeConfig: {
-    repo: 'citation-dev/citation.m2en.dev',
-    displayAllHeaders: true,
+  theme: defaultTheme({
+    repo: 'citation-dev/citation',
     repoLabel: 'GitHub',
-    editLinks: true,
+    editLink: true,
     docsDir: 'src',
-    nextLinks: true,
-    prevLinks: true,
 
     // TODO: Add more sidebar items
     sidebar: {
       '/docs/': [
         {
-          title: 'Docs',
+          text: 'Docs',
         }
-      ],
+      ]
     },
+
 
     locales: {
       "/": {
-        selectLanguageName: '日本語',
-        contributorsText: '編集者',
-        lastUpdatedText: '編集日時',
-        editLinkText: 'GitHubで編集する',
-        relatedPagesText: '関連ページ',
-        searchPlaceholder: '検索する....',
-        nav: [
+        contributors: true,
+        contributorsText: "編集者",
+        lastUpdatedText: "最終更新日",
+        selectLanguageName: "日本語",
+
+        navbar: [
           {
             text: 'ドキュメント',
             link: '/docs/',
           },
           {
             text: 'リンク',
-            items: [
+            children: [
               {
                 text: '公式Discord',
                 link: 'https://discord.gg/vWbFzvdks7',
@@ -67,7 +64,7 @@ module.exports = {
               },
               {
                 text: 'リポジトリ',
-                items: [
+                children: [
                   {
                     text: 'citation',
                     link: 'https://github.com/citation-dev/citation'
@@ -79,24 +76,23 @@ module.exports = {
                 ]
               }
             ]
-          },
+          }
         ]
       },
       "/en/": {
-        selectLanguageName: 'English',
-        contributorsText: 'Contributors',
-        lastUpdatedText: 'Last Updated',
-        editLinkText: 'Edit on GitHub',
-        relatedPagesText: 'Related pages',
-        searchPlaceholder: 'Search....',
-        nav: [
+        contributors: true,
+        contributorsText: "Contributors",
+        lastUpdatedText: "Last Updated",
+        selectLanguageName: "English",
+
+        navbar: [
           {
-            text: 'Documents',
+            text: 'Documentation',
             link: '/docs/',
           },
           {
             text: 'Links',
-            items: [
+            children: [
               {
                 text: 'Official Discord',
                 link: 'https://discord.gg/vWbFzvdks7',
@@ -107,7 +103,7 @@ module.exports = {
               },
               {
                 text: 'Repository',
-                items: [
+                children: [
                   {
                     text: 'citation',
                     link: 'https://github.com/citation-dev/citation'
@@ -119,11 +115,11 @@ module.exports = {
                 ]
               }
             ]
-          },
+          }
         ]
       }
     }
-  },
+  }),
 
   plugins: [
     '@vuepress/plugin-back-to-top',
