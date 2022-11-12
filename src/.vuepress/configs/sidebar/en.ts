@@ -10,7 +10,7 @@ export const sidebarEn: SidebarConfig = {
             ],
         },
     ],
-    '/guide/install-guide/': [
+    '/en/guide/install-guide/': [
         {
             text: 'Install Guide',
             children: [
@@ -20,26 +20,26 @@ export const sidebarEn: SidebarConfig = {
             ],
         },
     ],
-    '/reference/': [
+    '/en/reference/': [
         {
             text: "Features",
             children: [
-                '/reference/features/citation.md',
-                '/reference/features/help.md',
-                '/reference/features/ping.md',
+                '/en/reference/features/citation.md',
+                '/en/reference/features/help.md',
+                '/en/reference/features/ping.md',
             ]
         },
         {
             text: 'For Community Managers',
             children: [
-                '/reference/community/permissions.md',
+                '/en/reference/community/permissions.md',
             ]
         },
         {
             text: 'For Developers',
             children: [
-                '/reference/developer/citation.md',
-                '/reference/developer/citation.m2en.dev.md',
+                '/en/reference/developer/citation.md',
+                '/en/reference/developer/citation.m2en.dev.md',
             ]
         }
     ]
