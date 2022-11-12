@@ -5,8 +5,13 @@ export const navbarJa: NavbarConfig = [
         text: 'ガイド',
         children: [
             '/guide/README.md',
-            '/guide/getting-started.md',
-        ]
+            {
+                text: 'インストールガイド',
+                children: [
+                    '/guide/install-guide/getting-started.md',
+                ]
+            },
+        ],
     },
     {
         text: 'リファレンス',

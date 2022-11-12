@@ -8,9 +8,9 @@ export const sidebarJa: SidebarConfig = {
                 '/guide/README.md',
                 '/guide/getting-started.md',
             ],
-        }
+        },
     ],
-    '/guide/install-guide': [
+    '/guide/install-guide/': [
         {
             text: 'インストールガイド',
             children: [
@@ -19,9 +19,28 @@ export const sidebarJa: SidebarConfig = {
                 '/guide/install-guide/self-build.md',
             ],
         },
+    ],
+    '/reference/': [
         {
-            text: 'ガイドに戻る',
-            link: '/guide/',
+            text: "機能",
+            children: [
+                '/reference/features/citation.md',
+                '/reference/features/help.md',
+                '/reference/features/ping.md',
+            ]
+        },
+        {
+            text: 'コミュニティ運営者向け',
+            children: [
+                '/reference/community/permissions.md',
+            ]
+        },
+        {
+            text: '開発者向け',
+            children: [
+                '/reference/developer/citation.md',
+                '/reference/developer/citation.m2en.dev.md',
+            ]
         }
     ]
 }

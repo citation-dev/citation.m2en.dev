@@ -8,9 +8,9 @@ export const sidebarEn: SidebarConfig = {
                 '/en/guide/README.md',
                 '/en/guide/getting-started.md',
             ],
-        }
+        },
     ],
-    '/en/guide/install-guide': [
+    '/guide/install-guide/': [
         {
             text: 'Install Guide',
             children: [
@@ -19,9 +19,28 @@ export const sidebarEn: SidebarConfig = {
                 '/en/guide/install-guide/self-build.md',
             ],
         },
+    ],
+    '/reference/': [
         {
-            text: 'Back to Guide',
-            link: '/en/guide/',
+            text: "Features",
+            children: [
+                '/reference/features/citation.md',
+                '/reference/features/help.md',
+                '/reference/features/ping.md',
+            ]
+        },
+        {
+            text: 'For Community Managers',
+            children: [
+                '/reference/community/permissions.md',
+            ]
+        },
+        {
+            text: 'For Developers',
+            children: [
+                '/reference/developer/citation.md',
+                '/reference/developer/citation.m2en.dev.md',
+            ]
         }
     ]
 }

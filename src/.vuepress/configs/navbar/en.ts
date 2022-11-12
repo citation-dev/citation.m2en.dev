@@ -5,8 +5,13 @@ export const navbarEn: NavbarConfig = [
         text: 'Guide',
         children: [
             '/guide/README.md',
-            '/guide/getting-started.md',
-        ]
+            {
+                text: 'Install Guide',
+                children: [
+                    '/guide/getting-started.md',
+                ]
+            },
+        ],
     },
     {
         text: 'Reference',
@@ -20,7 +25,7 @@ export const navbarEn: NavbarConfig = [
                 ]
             },
             {
-                text: 'For Admins',
+                text: 'For Community Managers',
                 children: [
                     '/reference/community/permissions.md',
                 ]
@@ -35,10 +40,10 @@ export const navbarEn: NavbarConfig = [
         ]
     },
     {
-        text: 'Links',
+        text: 'リンク',
         children: [
             {
-                text: 'Official Discord',
+                text: '公式Discord',
                 link: 'https://discord.gg/vWbFzvdks7',
             },
             {
@@ -46,7 +51,7 @@ export const navbarEn: NavbarConfig = [
                 link: 'https://github.com/citation-dev',
             },
             {
-                text: 'Repository',
+                text: 'リポジトリ',
                 children: [
                     {
                         text: 'citation',
