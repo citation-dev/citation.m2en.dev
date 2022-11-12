@@ -8,13 +8,13 @@
 
 アプリの名前とチームを選択したら `Create` をクリックします。
 
-![アプリ作成画面](../../image/create-app.png)
+![アプリ作成画面](../../image/guide/install-guide/create-app.png)
 
 ## Botを作成する
 
 Appをクリックして、`General Information` に移動したら、 `Bot` メニューへ移動します。
 
-![アプリ詳細画面](../../image/app-general-info.png)
+![アプリ詳細画面](../../image/guide/install-guide/app-general-info.png)
 
 `Add Bot` をクリックし、新しいBotユーザーを作成しましょう。
 
@@ -64,7 +64,7 @@ citationを正常に動作させるため、 `Privileged Gateway Intents` の設
 
 `OAuth2` タブから `OAuth2 URL Generator` に移動します。
 
-![OAuth2 URL Generator](../../image/oauth2.png)
+![OAuth2 URL Generator](../../image/guide/install-guide/oauth2.png)
 
 ### SCOPES を設定
 
@@ -72,7 +72,7 @@ citationを正常に動作させるため、 `Privileged Gateway Intents` の設
 
 citationはWebサービスではないため、 `bot` だけで大丈夫です。
 
-![SCOPES](../../image/scopes.png)
+![SCOPES](../../image/guide/install-guide/scopes.png)
 
 ### 権限を設定する
 
