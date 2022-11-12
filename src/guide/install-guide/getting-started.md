@@ -8,13 +8,13 @@ citationの構築方法には、以下の2つの方法があります。下か�
 
 Dockerを使ってcitationを構築する方法です。
 
-[詳しくはこちら](./install-guide/docker.md)
+[詳しくはこちら](docker.md)
 
 ## 自分でビルドする
 
 自分で一からビルドしてcitaitonを構築する方法です。
 
-[詳しくはこちら](./install-guide/self-build.md)
+[詳しくはこちら](self-build.md)
 
 ::: warning 
 

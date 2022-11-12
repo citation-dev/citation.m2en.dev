@@ -8,13 +8,13 @@ There are two ways to build citation. Please choose one from below to proceed th
 
 This is a method to build citation using Docker.
 
-[Click here for details](./install-guide/docker.md)
+[Click here for details](docker.md)
 
 ## Build it yourself
 
 You can build citaiton from scratch by yourself.
 
-[Click here for details](./install-guide/self-build.md)
+[Click here for details](self-build.md)
 
 ::: warning
 

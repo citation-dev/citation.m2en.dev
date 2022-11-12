@@ -30,4 +30,4 @@ For more information on the features, please refer to the reference
 
 **Come on, let's install citation on your server!**
 
-- [Build citation](./getting-started.md)
+- [Build citation](install-guide/getting-started.md)

@@ -30,4 +30,4 @@ Discordのアプリケーションなどを作成できるように[Discord API]
 
 **さあ、あなたのサーバーに citation を導入してみましょう！**
 
-- [citaitonを構築する](./getting-started.md)
+- [citaitonを構築する](install-guide/getting-started.md)
