@@ -3,11 +3,35 @@ import { NavbarConfig } from "vuepress";
 export const navbarEn: NavbarConfig = [
     {
         text: 'Guide',
-        link: '/en/guide/',
+        children: [
+            '/guide/README.md',
+            '/guide/getting-started.md',
+        ]
     },
     {
         text: 'Reference',
-        link: '/en/reference/',
+        children: [
+            {
+                text: 'Features',
+                children: [
+                    '/reference/features/citation.md',
+                    '/reference/features/help.md',
+                    '/reference/features/ping.md',
+                ]
+            },
+            {
+                text: 'For Admins',
+                children: [
+                    '/reference/community/permissions.md',
+                ]
+            },
+            {
+                text: 'For Developers',
+                children: [
+                    '/reference/developers/citation.md',
+                ]
+            }
+        ]
     },
     {
         text: 'Links',

@@ -3,11 +3,35 @@ import { NavbarConfig } from "vuepress";
 export const navbarJa: NavbarConfig = [
     {
         text: 'ガイド',
-        link: '/guide/',
+        children: [
+            '/guide/README.md',
+            '/guide/getting-started.md',
+        ]
     },
     {
         text: 'リファレンス',
-        link: '/reference/',
+        children: [
+            {
+                text: '機能',
+                children: [
+                    '/reference/features/citation.md',
+                    '/reference/features/help.md',
+                    '/reference/features/ping.md',
+                ]
+            },
+            {
+                text: 'コミュニティ運営者向け',
+                children: [
+                    '/reference/community/permissions.md',
+                ]
+            },
+            {
+                text: '開発者向け',
+                children: [
+                    '/reference/developers/citation.md',
+                ]
+            }
+        ]
     },
     {
         text: 'リンク',
