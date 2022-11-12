@@ -10,6 +10,18 @@
 
 ![アプリ作成画面](../../image/guide/install-guide/create-app.png)
 
+::: tip team とは
+
+チームは、複数人で開発する際に、アプリを共有するための機能です。
+
+チームを作成するには、[Discord Developer Portal](https://discord.com/developers/applications)にアクセスし、`New Team`をクリックします。
+
+チーム間ではトークンを共有したりすることができます。機能の詳細についてはDiscord Developer Documentationを参照してください。
+
+[Teams - Discord Developer Documentation](https://discord.com/developers/docs/topics/teams)
+
+:::
+
 ## Botを作成する
 
 Appをクリックして、`General Information` に移動したら、 `Bot` メニューへ移動します。
@@ -38,9 +50,9 @@ Appをクリックして、`General Information` に移動したら、 `Bot` メ
 
 トークンは機密情報です。絶対に他人に教えないようにしてください。
 
-トークンを共有したい場合はチーム機能などを活用してください。詳しくはDiscord Developer Documentを参照してください。
+トークンを共有したい場合はチーム機能などを活用してください。詳しくはDiscord Developer Documentationを参照してください。
 
-[Teams - Discord Developer Document](https://discord.com/developers/docs/topics/teams)
+[Teams - Discord Developer Documentation](https://discord.com/developers/docs/topics/teams)
 
 :::
 
@@ -48,7 +60,7 @@ Appをクリックして、`General Information` に移動したら、 `Bot` メ
 
 必要に応じて `Authorization Flow` を設定します。
 
-- `PUBLIC BOT`: 公開Botかの設定を行います。招待リンクを公開していなくても実は公開リンクは自作することができます。公開したくない場合はこの設定をOFFにしてください。(OFFにしても自分だけは招待することができます。)
+- `PUBLIC BOT`: 公開Botかの設定を行います。招待リンクを公開していなくても実は招待リンクは自作することができます。公開したくない場合はこの設定をOFFにしてください。(OFFにしても自分だけは招待することができます。)
 
 ## Privileged Gateway Intents の設定
 

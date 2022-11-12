@@ -8,13 +8,13 @@ Go to [Discord Developer Portal](https://discord.com/developers/applications) an
 
 After selecting a name and team for your app, click `Create`.
 
-![App Creation Screen](../../../image/create-app.png)
+![App Creation Screen](../../../image/guide/install-guide/create-app.png)
 
 ## Create a Bot
 
 After clicking on `App` and navigating to `General Information`, go to the `Bot` menu.
 
-![App Details Screen](../../../image/app-general-info.png)
+![App Details Screen](../../../image/guide/install-guide/app-general-info.png)
 
 Click `Add Bot` to create a new Bot user.
 
@@ -64,7 +64,7 @@ Once you have completed the configuration, invite the Bot to join your server.
 
 Go to the `OAuth2 URL Generator` from the `OAuth2` tab.
 
-![OAuth2 URL Generator](../../../image/oauth2.png)
+![OAuth2 URL Generator](../../../image/guide/install-guide/oauth2.png)
 
 ### Set up `SCOPES
 
@@ -72,7 +72,7 @@ First, configure `SCOPES`.
 
 Since citation is not a web service, just `bot` is fine.
 
-![SCOPES](../../../image/scopes.png)
+![SCOPES](../../../image/guide/install-guide/scopes.png)
 
 ### Setting Permissions
 
