@@ -10,7 +10,7 @@ citation は、Discordのメッセージリンクのプレビューを表示す�
 
 前作に[MessageQuote](https://github.com/m2en/MessageQuote)と呼ばれるTypeScriptで開発されたBotがありますが、citationはそのBotの問題点などを解消し、扱いやすくしたものになります。
 
-![デモ](https://github.com/citation-dev/citation/raw/main/docs/docs/version2/image/gif/quote.gif)
+![デモ](../image/reference/features/gif/quote.gif)
 
 ## [Discord](https://discord.com/) とは？
 

@@ -10,7 +10,7 @@ citation is a Discord Bot that displays previews of Discord message links.
 
 There is a previous bot developed in TypeScript called [MessageQuote](https://github.com/m2en/MessageQuote). citation solves the problems of that bot and makes it easier to handle.
 
-! [Demo](https://github.com/citation-dev/citation/raw/main/docs/docs/version2/image/gif/quote.gif)
+![Demo](../../image/reference/features/gif/quote.gif)
 
 ## What is [Discord](https://discord.com/)?
 
