@@ -40,10 +40,10 @@ export const navbarEn: NavbarConfig = [
         ]
     },
     {
-        text: 'リンク',
+        text: 'Links',
         children: [
             {
-                text: '公式Discord',
+                text: 'Official Discord',
                 link: 'https://discord.gg/vWbFzvdks7',
             },
             {
@@ -51,7 +51,7 @@ export const navbarEn: NavbarConfig = [
                 link: 'https://github.com/citation-dev',
             },
             {
-                text: 'リポジトリ',
+                text: 'Repository',
                 children: [
                     {
                         text: 'citation',
