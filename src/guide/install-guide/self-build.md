@@ -60,7 +60,7 @@ cp .env.example .env
 次のコマンドで、citationを起動します。
 
 ```sh
-java -jar build/libs/citation.jar
+java -jar build/libs/citation.ja
 ```
 
 Botがオンラインになり、アクティビティ欄にバージョンが表示されれば成功です。
@@ -82,7 +82,7 @@ Botがオンラインになり、アクティビティ欄にバージョンが�
 ```sh
 git pull
 ./gradlew build
-java -jar build/libs/citation.jar
+java -jar build/libs/citation.ja
 ```
 
 ::: warning

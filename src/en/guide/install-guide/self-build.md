@@ -60,7 +60,7 @@ After a successful build, Jar files will be generated under `build/libs`.
 Start citation with the following command.
 
 ```sh
-java -jar build/libs/citation.jar
+java -jar build/libs/citation.ja
 ````
 
 If the bot comes online and the version is displayed in the Activity column, you have succeeded.
@@ -82,7 +82,7 @@ The following command will update citation.
 ```sh
 git pull
 . /gradlew build
-java -jar build/libs/citation.jar
+java -jar build/libs/citation.ja
 ```
 
 ::: warning
