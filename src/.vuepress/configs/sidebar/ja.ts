@@ -6,7 +6,7 @@ export const sidebarJa: SidebarConfig = {
             text: 'ガイド',
             children: [
                 '/guide/README.md',
-                '/guide/getting-started.md',
+                '/guide/install-guide/getting-started.md',
             ],
         },
     ],

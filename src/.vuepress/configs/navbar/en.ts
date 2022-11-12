@@ -4,11 +4,11 @@ export const navbarEn: NavbarConfig = [
     {
         text: 'Guide',
         children: [
-            '/guide/README.md',
+            '/en/guide/README.md',
             {
                 text: 'Install Guide',
                 children: [
-                    '/guide/getting-started.md',
+                    '/en/guide/install-guide/getting-started.md',
                 ]
             },
         ],
@@ -19,22 +19,22 @@ export const navbarEn: NavbarConfig = [
             {
                 text: 'Features',
                 children: [
-                    '/reference/features/citation.md',
-                    '/reference/features/help.md',
-                    '/reference/features/ping.md',
+                    '/en/reference/features/citation.md',
+                    '/en/reference/features/help.md',
+                    '/en/reference/features/ping.md',
                 ]
             },
             {
                 text: 'For Community Managers',
                 children: [
-                    '/reference/community/permissions.md',
+                    '/en/reference/community/permissions.md',
                 ]
             },
             {
                 text: 'For Developers',
                 children: [
-                    '/reference/developer/citation.md',
-                    '/reference/developer/citation.m2en.dev.md',
+                    '/en/reference/developer/citation.md',
+                    '/en/reference/developer/citation.m2en.dev.md',
                 ]
             }
         ]
