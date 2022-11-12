@@ -28,7 +28,8 @@ export const navbarJa: NavbarConfig = [
             {
                 text: '開発者向け',
                 children: [
-                    '/reference/developers/citation.md',
+                    '/reference/developer/citation.md',
+                    '/reference/developer/citation.m2en.dev.md',
                 ]
             }
         ]

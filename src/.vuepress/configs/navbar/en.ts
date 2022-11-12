@@ -28,7 +28,8 @@ export const navbarEn: NavbarConfig = [
             {
                 text: 'For Developers',
                 children: [
-                    '/reference/developers/citation.md',
+                    '/reference/developer/citation.md',
+                    '/reference/developer/citation.m2en.dev.md',
                 ]
             }
         ]
