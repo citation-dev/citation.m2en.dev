@@ -2,7 +2,7 @@
 
 Welcome to the citation guide.
 
-The guide explains how to set up ## citationon and how to customize it.
+The guide explains how to set up citation and how to customize it.
 
 ## What is citation?
 

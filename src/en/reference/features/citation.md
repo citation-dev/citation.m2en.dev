@@ -69,7 +69,7 @@ Users with message management or administrator privileges can also delete quotes
 
 For more information about spoilers, please refer to the official help article.
 
-[spoiler tag! - Discord Help Center](https://support.discord.com/hc/ja/articles/360022320632)
+[spoiler tag! - Discord Help Center](https://support.discord.com/hc/en-us/articles/360022320632)
 
 ::::
 
@@ -106,7 +106,7 @@ Ephemeral messages are messages that are handled by the Interaction API for appl
 
 For details, please refer to the official help article.
 
-[Ephemeral Messages FAQ - Discord Help Center](https://support.discord.com/hc/ja/articles/1500000580222)
+[Ephemeral Messages FAQ - Discord Help Center](https://support.discord.com/hc/en-us/articles/1500000580222)
 
 ::::
 

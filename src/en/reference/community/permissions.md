@@ -48,5 +48,4 @@ You can have per-command settings from the `command` sector. This takes preceden
 
 Check the Discord Help Center for detailed settings
 
-[Command Permissions - Discord Help Center](https://support.discord.com/hc/ja/articles/4644915651095)
-]()
+[Command Permissions - Discord Help Center](https://support.discord.com/hc/en-us/articles/4644915651095)
