@@ -1,5 +1,19 @@
 # コマンドの設定
 
+::: danger Command Permission のアップデートについて
+
+2022/11/19 にDiscord Bot & APIチームにより、Application Command の権限設定に関するアップデートがアナウンスされました。
+
+2022/12/06 から随時権限設定に変更が入るため、このリファレンスに書かれている情報が古くなる場合があります。(最新情報は [Discord Developers](https://discord.gg/discord-developers) にて確認してください。)
+
+現行のcitationのビルドには影響がありませんが、 `PUT /applications/<application_id>/guilds/<guild_id>/commands/<command_id>/permissions` のエンドポイントを指定して自分でコマンドを登録している場合は対応が必要です。
+
+詳しくはChange Logを確認してください。
+
+https://discord.com/developers/docs/change-log#upcoming-application-command-permission-changes
+
+:::
+
 citationのApplication CommandはDiscordのCommand Permission v2を使って権限を割り当てることができ、コミュニティ内で使えるメンバーと使えないメンバーを明確に分けることができます。
 
 ## コマンドの仕組み
