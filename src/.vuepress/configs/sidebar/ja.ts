@@ -40,6 +40,7 @@ export const sidebarJa: SidebarConfig = {
             children: [
                 '/reference/developer/citation.md',
                 '/reference/developer/citation.m2en.dev.md',
+                '/reference/developer/i18n.md',
             ]
         }
     ]

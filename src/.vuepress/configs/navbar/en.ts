@@ -35,6 +35,7 @@ export const navbarEn: NavbarConfig = [
                 children: [
                     '/en/reference/developer/citation.md',
                     '/en/reference/developer/citation.m2en.dev.md',
+                    '/en/reference/developer/i18n.md'
                 ]
             }
         ]
