@@ -16,6 +16,6 @@
 
 [Discord Status](https://discordstatus.com/) の **API Response Time** を確認してください。
 
-値が高い場合はcitationのレスポンスが悪いということではなく、Discord APIサーバーのレスポンスが悪い可能性があります。最新情報を確認してください。
+値が高い場合はcitationのレスポンスが悪いということ以外に、Discord APIサーバーのレスポンスが悪い可能性もあります。最新情報を確認してください。
 
 :::
