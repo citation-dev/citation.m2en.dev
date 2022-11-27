@@ -1,6 +1,6 @@
-# Building citaiton with Docker
+# Building citation with Docker
 
-In this guide, we will build citaiton with Docker.
+In this guide, we will build citation with Docker.
 
 ::: tip Prerequisites
 
@@ -37,16 +37,6 @@ cp .env.example .env
 
 Edit also `docker-compose.yml` if necessary.
 
-## Build
-
-The following command will build citation.
-
-This may take some time.
-
-```sh 
-docker-compose build
-````
-
 ## Startup
 
 Start citation with the following command.
@@ -66,7 +56,7 @@ Update citation with the following command.
 ```sh
 git pull
 docker-compose build
-docker-compose stop && docker-compose up -d
+docker-compose down --rmi all && docker-compose up -d
 ```
 
 ::: warning
