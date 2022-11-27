@@ -1,6 +1,9 @@
 # Ping
 
-- citationが接続しているアクティブなセッションの各Rest request、GatewayAPIのレスポンスタイムを返します。
+`/ping` でcitationが接続しているアクティブなセッションの各Rest request、GatewayAPIのレスポンスタイムを返します。
+
+----
+
 - このコマンドで表示されるレスポンスタイムはどれも大まかな値となり、正確な値ではないことに注意してください。
 - GatewayAPIのレスポンスタイム
   - Discordが最後のハートビートに応答するのにかかった時間(ミリ秒)
@@ -13,6 +16,6 @@
 
 [Discord Status](https://discordstatus.com/) の **API Response Time** を確認してください。
 
-値が高い場合はcitationのレスポンスが悪いということではなく、Discord APIサーバーのレスポンスが悪い可能性があります。最新情報を確認してください。
+値が高い場合はcitationのレスポンスが悪いということ以外に、Discord APIサーバーのレスポンスが悪い可能性もあります。最新情報を確認してください。
 
 :::

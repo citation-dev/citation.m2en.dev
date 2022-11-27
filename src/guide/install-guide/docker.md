@@ -37,16 +37,6 @@ cp .env.example .env
 
 必要であれば `docker-compose.yml` も編集してください。
 
-## ビルド
-
-次のコマンドで、citationのビルドを行います。
-
-これには時間がかかる場合があります。
-
-```sh 
-docker-compose build
-```
-
 ## 起動
 
 次のコマンドで、citationを起動します。
@@ -66,7 +56,7 @@ Botがオンラインになり、アクティビティ欄にバージョンが�
 ```sh
 git pull
 docker-compose build
-docker-compose stop && docker-compose up -d
+docker-compose down --rmi all && docker-compose up -d
 ```
 
 ::: warning
