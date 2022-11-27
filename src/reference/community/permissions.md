@@ -8,9 +8,7 @@
 
 現行のcitationのビルドには影響がありませんが、 `PUT /applications/<application_id>/guilds/<guild_id>/commands/<command_id>/permissions` のエンドポイントを指定して自分でコマンドを登録している場合は対応が必要です。
 
-詳しくはChange Logを確認してください。
-
-https://discord.com/developers/docs/change-log#upcoming-application-command-permission-changes
+詳しくは[Change Log](https://discord.com/developers/docs/change-log#upcoming-application-command-permission-changes)を確認してください。
 
 :::
 

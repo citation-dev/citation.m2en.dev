@@ -8,9 +8,7 @@ The information in this reference may be out of date as the permission settings 
 
 Current citation builds are not affected, but if you have registered your own commands by specifying the `PUT /applications/<application_id>/guilds/<guild_id>/commands/<command_id>/permissions` endpoint If you have registered your own commands, you need to take action.
 
-Please check the Change Log for details.
-
-https://discord.com/developers/docs/change-log#upcoming-application-command-permission-changes
+Please check the [Change Log](https://discord.com/developers/docs/change-log#upcoming-application-command-permission-changes) for details.
 
 :::
 
