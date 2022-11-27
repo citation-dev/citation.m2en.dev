@@ -1,6 +1,9 @@
 # Ping
 
-- citationが接続しているアクティブなセッションの各Rest request、GatewayAPIのレスポンスタイムを返します。
+`/help` でcitationが接続しているアクティブなセッションの各Rest request、GatewayAPIのレスポンスタイムを返します。
+
+----
+
 - このコマンドで表示されるレスポンスタイムはどれも大まかな値となり、正確な値ではないことに注意してください。
 - GatewayAPIのレスポンスタイム
   - Discordが最後のハートビートに応答するのにかかった時間(ミリ秒)
