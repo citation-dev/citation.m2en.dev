@@ -1,6 +1,6 @@
 # Ping
 
-`/help` でcitationが接続しているアクティブなセッションの各Rest request、GatewayAPIのレスポンスタイムを返します。
+`/ping` でcitationが接続しているアクティブなセッションの各Rest request、GatewayAPIのレスポンスタイムを返します。
 
 ----
 
