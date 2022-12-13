@@ -4,7 +4,7 @@
   "description": "Website / Document for citation",
   "main": "index.js",
   "authors": {
-    "name": "m2en",
+    "name": "citation-dev",
     "email": "citation@m2en.dev"
   },
   "repository": "https://github.com/citation-dev/citation.m2en.dev",
