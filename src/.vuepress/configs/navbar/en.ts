@@ -2,16 +2,12 @@ import { NavbarConfig } from "vuepress";
 
 export const navbarEn: NavbarConfig = [
     {
+        text: 'rumpulid',
+        link: '/en/rumpulid/'
+    },
+    {
         text: 'Guide',
-        children: [
-            '/en/guide/README.md',
-            {
-                text: 'Install Guide',
-                children: [
-                    '/en/guide/install-guide/getting-started.md',
-                ]
-            },
-        ],
+        link: '/en/guide/'
     },
     {
         text: 'Reference',

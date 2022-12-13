@@ -2,16 +2,12 @@ import { NavbarConfig } from "vuepress";
 
 export const navbarJa: NavbarConfig = [
     {
+        text: 'rumpulid',
+        link: '/rumpulid/'
+    },
+    {
         text: 'ガイド',
-        children: [
-            '/guide/README.md',
-            {
-                text: 'インストールガイド',
-                children: [
-                    '/guide/install-guide/getting-started.md',
-                ]
-            },
-        ],
+        link: '/guide/'
     },
     {
         text: 'リファレンス',
