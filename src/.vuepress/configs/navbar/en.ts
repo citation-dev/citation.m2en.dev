@@ -62,6 +62,10 @@ export const navbarEn: NavbarConfig = [
                         text: 'citation.m2en.dev',
                         link: 'https://github.com/citation-dev/citation.m2en.dev'
                     },
+                    {
+                        text: 'rumpulid',
+                        link: 'https://github.com/citation-dev/rumpulid'
+                    },
                 ]
             }
         ]
