@@ -43,5 +43,13 @@ export const sidebarJa: SidebarConfig = {
                 '/reference/developer/i18n.md',
             ]
         }
+    ],
+    '/rumpulid/': [
+        {
+            text: 'ガイド',
+            children: [
+                '/rumpulid/guide/getting-started.md',
+            ],
+        },
     ]
 }
