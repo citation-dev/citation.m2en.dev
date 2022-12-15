@@ -31,5 +31,7 @@ cargo install rumpulid
 インストール完了後、以下のコマンドを実行してインストールが成功したか確認してください。
 
 ```shell
+rumpulid --version
+# or
 rumpulid -v
 ```
