@@ -2,27 +2,27 @@
 
 ::: danger Command Permission のアップデートについて
 
-2022/11/19 にDiscord Bot & APIチームにより、Application Command の権限設定に関するアップデートがアナウンスされました。
+2022/11/19 に Discord Bot & API チームにより、Application Command の権限設定に関するアップデートがアナウンスされました。
 
 2022/12/06 から随時権限設定に変更が入るため、このリファレンスに書かれている情報が古くなる場合があります。(最新情報は [Discord Developers](https://discord.gg/discord-developers) にて確認してください。)
 
-現行のcitationのビルドには影響がありませんが、 `PUT /applications/<application_id>/guilds/<guild_id>/commands/<command_id>/permissions` のエンドポイントを指定して自分でコマンドを登録している場合は対応が必要です。
+現行の citation のビルドには影響がありませんが、 `PUT /applications/<application_id>/guilds/<guild_id>/commands/<command_id>/permissions` のエンドポイントを指定して自分でコマンドを登録している場合は対応が必要です。
 
 詳しくは[Change Log](https://discord.com/developers/docs/change-log#upcoming-application-command-permission-changes)を確認してください。
 
 :::
 
-citationのApplication CommandはDiscordのCommand Permission v2を使って権限を割り当てることができ、コミュニティ内で使えるメンバーと使えないメンバーを明確に分けることができます。
+citation の Application Command は Discord の Command Permission v2 を使って権限を割り当てることができ、コミュニティ内で使えるメンバーと使えないメンバーを明確に分けることができます。
 
 ## コマンドの仕組み
 
 従来のメッセージ方式によるコマンドでは、そのチャンネル内の閲覧権限を剥奪するなどして対策するのが一般的でした。
 
-citationが採用しているInteraction APIを利用したコマンドでは、ギルド内 連携サービスメニュー内から一括でコマンドの設定を行えることができ、コマンド毎に権限を割り当てることもできます。
+citation が採用している Interaction API を利用したコマンドでは、ギルド内 連携サービスメニュー内から一括でコマンドの設定を行えることができ、コマンド毎に権限を割り当てることもできます。
 
 ## コマンドを設定する
 
-コマンドはcitationを起動したときに自動で設定されます。設定が完了したらサーバー設定の **連携サービス** からコマンドの設定を行うことができます。
+コマンドは citation を起動したときに自動で設定されます。設定が完了したらサーバー設定の **連携サービス** からコマンドの設定を行うことができます。
 
 ::: tip
 
@@ -56,8 +56,8 @@ citationが採用しているInteraction APIを利用したコマンドでは、
 
 `コマンド` セクターからコマンド毎に設定していることができます。これは、ロールやメンバー、チャンネルなど個別で設定したものよりも優先されます。
 
-----
+---
 
-詳しい設定方法はDiscord ヘルプセンターを確認してください
+詳しい設定方法は Discord ヘルプセンターを確認してください
 
-[Command Permissions - Discordヘルプセンター](https://support.discord.com/hc/ja/articles/4644915651095)
+[Command Permissions - Discord ヘルプセンター](https://support.discord.com/hc/ja/articles/4644915651095)

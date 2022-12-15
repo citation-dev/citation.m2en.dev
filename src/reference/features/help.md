@@ -1,14 +1,14 @@
 # ヘルプ
 
-`/help` でcitationのヘルプを表示します。
+`/help` で citation のヘルプを表示します。
 
 ![ヘルプ](../../image/reference/features/help.png)
 
-----
+---
 
 ### バージョン
 
-埋め込みの上部には現在動いているcitaitonのバージョンの最新Gitハッシュが表示されます。
+埋め込みの上部には現在動いている citaiton のバージョンの最新 Git ハッシュが表示されます。
 
 ### ヘルプ
 
@@ -16,18 +16,18 @@
 
 ### ドキュメントボタン
 
-`ドキュメント` ボタンをクリックするとcitation docsに移動します。
+`ドキュメント` ボタンをクリックすると citation docs に移動します。
 
 ### Issue
 
-`Issue` ボタンをクリックするとGitHubのIssuesに移動します。
+`Issue` ボタンをクリックすると GitHub の Issues に移動します。
 
 ### Discussion
 
-`Discussion` ボタンをクリックするとGitHubのDiscussionsに移動します。
+`Discussion` ボタンをクリックすると GitHub の Discussions に移動します。
 
 ::: tip
 
-埋め込みのリンク・ボタンを右クリックするとURLをコピーすることができます。
+埋め込みのリンク・ボタンを右クリックすると URL をコピーすることができます。
 
 :::

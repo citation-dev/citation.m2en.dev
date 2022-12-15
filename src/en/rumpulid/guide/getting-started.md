@@ -20,16 +20,16 @@ rumpulid can be installed by the following command.
 
 :::: code-group
 ::: code-group-item Cargo
+
 ```shell
 cargo install rumpulid
-````
+```
+
 :::
 ::::
-
 
 After the installation is complete, run the following command to confirm that the installation was successful:
 
 ```shell
 rumpulid -v
 ```
-

@@ -22,4 +22,4 @@ You need to prepare a Java 17 environment before doing this method of self-build
 
 The rest of this guide will assume that you have this environment.
 
-:::: 
+::::
