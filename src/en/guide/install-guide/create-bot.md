@@ -85,12 +85,12 @@ From `BOT PERMISSIONS`, check the following permissions.
 - `Embeds_Links` (permission to embed links) - **required**.
 - `Attach Files` (permission to send attachments) - **required**.
 - `Read Messages / View Channels` (permission to view messages and channels) - **required**.
-- `Use External Emojis` (permission to use emojis from another server) - **required** - **required
+- `Use External Emojis` (permission to use emojis from another server) - **required** - \*\*required
 - `Use External Sticker` (permission to use stickers from another server)
 
 ::: tip
 
-Use External Emojis` and `Use External Sticker` are not required, but you should check them if you want to quote emojis and stickers from other sites successfully.
+Use External Emojis`and`Use External Sticker` are not required, but you should check them if you want to quote emojis and stickers from other sites successfully.
 
 :::
 
@@ -98,7 +98,7 @@ Use External Emojis` and `Use External Sticker` are not required, but you should
 
 An invitation link will be issued to the `GENERATED URL`. Follow the on-screen instructions to invite the Bot to the server.
 
-----
+---
 
 Thanks for your help. You have now created your Bot.
 

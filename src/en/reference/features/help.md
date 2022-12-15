@@ -4,7 +4,7 @@
 
 ![help](../../../image/reference/features/help.png)
 
-----
+---
 
 ### Version
 

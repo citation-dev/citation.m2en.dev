@@ -2,7 +2,7 @@
 
 Returns the response time of each Rest request and GatewayAPI for the active session to which citation is connected in `/ping`.
 
-----
+---
 
 - Note that any response time displayed by this command will be rough and not exact.
 - GatewayAPI Response Time

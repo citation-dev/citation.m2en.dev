@@ -1,25 +1,25 @@
-# Dockerでcitationを構築する
+# Docker で citation を構築する
 
-このガイドではcitaitonをDockerで構築します。
+このガイドでは citaiton を Docker で構築します。
 
 ::: tip 前提条件
 
-- Docker、及びDocker-Composeがインストールされていること
+- Docker、及び Docker-Compose がインストールされていること
 
-インストールしていない場合はDockerの[公式ドキュメント](https://docs.docker.com/get-docker/)を参照して用意してください。
+インストールしていない場合は Docker の[公式ドキュメント](https://docs.docker.com/get-docker/)を参照して用意してください。
 
 :::
 
-## Botの作成
+## Bot の作成
 
-まず、最初にcitationとして動作させるBotを作成します。
+まず、最初に citation として動作させる Bot を作成します。
 
-Botについては [このガイド](create-bot.md) を確認しながら作成してください。
+Bot については [このガイド](create-bot.md) を確認しながら作成してください。
 
 ## リポジトリをクローンする
 
 ```sh
-# SSH 
+# SSH
 git clone git@github.com:citation-dev/citation.git
 # HTTPS
 git clone https://github.com/citation-dev/citation.git
@@ -31,7 +31,7 @@ cd citation
 
 下記コマンドで環境変数ファイルを `.env` としてコピーした後、ファイル内の指示に従って編集してください。
 
-```sh 
+```sh
 cp .env.example .env
 ```
 
@@ -39,19 +39,19 @@ cp .env.example .env
 
 ## 起動
 
-次のコマンドで、citationを起動します。
+次のコマンドで、citation を起動します。
 
 ```sh
 docker-compose up -d
 ```
 
-Botがオンラインになり、アクティビティ欄にバージョンが表示されれば成功です。
+Bot がオンラインになり、アクティビティ欄にバージョンが表示されれば成功です。
 
 お疲れ様でした。
 
 ## アップデート
 
-次のコマンドで、citationをアップデートします。
+次のコマンドで、citation をアップデートします。
 
 ```sh
 git pull

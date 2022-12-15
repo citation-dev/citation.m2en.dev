@@ -1,8 +1,8 @@
-# Botを作成する
+# Bot を作成する
 
-このガイドではcitationとして動作するBotを作成します。
+このガイドでは citation として動作する Bot を作成します。
 
-## Appを作成する
+## App を作成する
 
 [Discord Developer Portal](https://discord.com/developers/applications)にアクセスし、`New Application`をクリックします。
 
@@ -16,41 +16,41 @@
 
 チームを作成するには、[Discord Developer Portal](https://discord.com/developers/applications)にアクセスし、`New Team`をクリックします。
 
-チーム間ではトークンを共有したりすることができます。機能の詳細についてはDiscord Developer Documentationを参照してください。
+チーム間ではトークンを共有したりすることができます。機能の詳細については Discord Developer Documentation を参照してください。
 
 [Teams - Discord Developer Documentation](https://discord.com/developers/docs/topics/teams)
 
 :::
 
-## Botを作成する
+## Bot を作成する
 
-Appをクリックして、`General Information` に移動したら、 `Bot` メニューへ移動します。
+App をクリックして、`General Information` に移動したら、 `Bot` メニューへ移動します。
 
 ![アプリ詳細画面](../../image/guide/install-guide/app-general-info.png)
 
-`Add Bot` をクリックし、新しいBotユーザーを作成しましょう。
+`Add Bot` をクリックし、新しい Bot ユーザーを作成しましょう。
 
 ::: danger Too many users have this username, please try another. と表示される場合
 
-エラーの通り、Botの名前が他のユーザーと被っている可能性があります。
+エラーの通り、Bot の名前が他のユーザーと被っている可能性があります。
 
-初期状態ではAppの名前をそのままBotの名前に使います。Appの名前は別のAppと被っていても存在できますが、Botに関してはユーザーのアカウントと同じ扱いです。(ユーザーアカウントも同じユーザー名とDiscord Tagは存在できない)
+初期状態では App の名前をそのまま Bot の名前に使います。App の名前は別の App と被っていても存在できますが、Bot に関してはユーザーのアカウントと同じ扱いです。(ユーザーアカウントも同じユーザー名と Discord Tag は存在できない)
 
-`General Information` に戻り、Appの名前を一時的に変更して `Add Bot` をクリックしましょう。
+`General Information` に戻り、App の名前を一時的に変更して `Add Bot` をクリックしましょう。
 
 :::
 
 ## トークンを入手する
 
-`Reset Token` をクリックし、Botのトークンをコピーします。
+`Reset Token` をクリックし、Bot のトークンをコピーします。
 
-このトークンはBotの認証に使用されます。後々使うので、安全な場所に保存しておきましょう。
+このトークンは Bot の認証に使用されます。後々使うので、安全な場所に保存しておきましょう。
 
 ::: danger トークンは絶対に他人に教えないでください
 
 トークンは機密情報です。絶対に他人に教えないようにしてください。
 
-トークンを共有したい場合はチーム機能などを活用してください。詳しくはDiscord Developer Documentationを参照してください。
+トークンを共有したい場合はチーム機能などを活用してください。詳しくは Discord Developer Documentation を参照してください。
 
 [Teams - Discord Developer Documentation](https://discord.com/developers/docs/topics/teams)
 
@@ -60,19 +60,19 @@ Appをクリックして、`General Information` に移動したら、 `Bot` メ
 
 必要に応じて `Authorization Flow` を設定します。
 
-- `PUBLIC BOT`: 公開Botかの設定を行います。招待リンクを公開していなくても実は招待リンクは自作することができます。公開したくない場合はこの設定をOFFにしてください。(OFFにしても自分だけは招待することができます。)
+- `PUBLIC BOT`: 公開 Bot かの設定を行います。招待リンクを公開していなくても実は招待リンクは自作することができます。公開したくない場合はこの設定を OFF にしてください。(OFF にしても自分だけは招待することができます。)
 
 ## Privileged Gateway Intents の設定
 
-citationを正常に動作させるため、 `Privileged Gateway Intents` の設定を行います。
+citation を正常に動作させるため、 `Privileged Gateway Intents` の設定を行います。
 
 `Server Members Intent` と `MESSAGE CONTENT INTENT` を `ON` にしてください。
 
 `Privileged Gateway Intents` については[こちら](https://discord.com/developers/docs/topics/gateway#gateway-intents)を参照してください。
 
-## Botをサーバーに招待する
+## Bot をサーバーに招待する
 
-設定が完了したらBotをサーバーに招待しましょう。
+設定が完了したら Bot をサーバーに招待しましょう。
 
 `OAuth2` タブから `OAuth2 URL Generator` に移動します。
 
@@ -82,13 +82,13 @@ citationを正常に動作させるため、 `Privileged Gateway Intents` の設
 
 最初に`SCOPES`を設定します。
 
-citationはWebサービスではないため、 `bot` だけで大丈夫です。
+citation は Web サービスではないため、 `bot` だけで大丈夫です。
 
 ![SCOPES](../../image/guide/install-guide/scopes.png)
 
 ### 権限を設定する
 
-次にBotの権限を設定します。
+次に Bot の権限を設定します。
 
 `BOT PERMISSIONS`から次の権限にチェックをつけてください。
 
@@ -106,15 +106,15 @@ citationはWebサービスではないため、 `bot` だけで大丈夫です�
 
 :::
 
-### Botをサーバーに招待する
+### Bot をサーバーに招待する
 
-`GENERATED URL` に招待リンクが発行されます。画面の指示に従ってBotをサーバーに招待してください。
+`GENERATED URL` に招待リンクが発行されます。画面の指示に従って Bot をサーバーに招待してください。
 
-----
+---
 
-お疲れ様です。これでBotを作成することができました。
+お疲れ様です。これで Bot を作成することができました。
 
 前にいたガイドに戻って起動作業に移ってください。
 
-- [Dockerでcitationを構築する](docker.md)
+- [Docker で citation を構築する](docker.md)
 - [自分でビルドする](self-build.md)

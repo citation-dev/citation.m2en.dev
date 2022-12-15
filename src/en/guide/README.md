@@ -26,7 +26,7 @@ A [Discord API](https://discord.com/developers/docs/intro) is available to creat
 
 For more information on the features, please refer to the reference
 
-----
+---
 
 **Come on, let's install citation on your server!**
 

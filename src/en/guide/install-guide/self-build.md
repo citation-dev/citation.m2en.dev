@@ -27,17 +27,17 @@ Please review [this guide](create-bot.md) to learn more about creating a bot.
 ## Clone the repository
 
 ```sh
-## SSH 
+## SSH
 git clone git@github.com:citation-dev/citation.git
 # HTTPS
 git clone https://github.com/citation-dev/citation.git
 
 cd citation
-````
+```
 
 ## Create an environment variable file
 
-Copy the environment variable file as ``.env`` with the following command, then edit it according to the instructions in the file.
+Copy the environment variable file as `.env` with the following command, then edit it according to the instructions in the file.
 
 ```sh
 cp .env.example .env
@@ -49,7 +49,7 @@ The following command will build citation.
 
 This will take some time.
 
-```sh 
+```sh
 . /gradlew build
 ```
 
@@ -61,7 +61,7 @@ Start citation with the following command.
 
 ```sh
 java -jar build/libs/citation.ja
-````
+```
 
 If the bot comes online and the version is displayed in the Activity column, you have succeeded.
 

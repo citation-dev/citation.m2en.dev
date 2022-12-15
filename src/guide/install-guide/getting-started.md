@@ -1,24 +1,24 @@
-# citationの構築
+# citation の構築
 
-citationはKotlinで開発されているDiscord Botです。
+citation は Kotlin で開発されている Discord Bot です。
 
-citationの構築方法には、以下の2つの方法があります。下から選んでガイドを進んでください。
+citation の構築方法には、以下の 2 つの方法があります。下から選んでガイドを進んでください。
 
-## Dockerを使った構築 (推奨)
+## Docker を使った構築 (推奨)
 
-Dockerを使ってcitationを構築する方法です。
+Docker を使って citation を構築する方法です。
 
 [詳しくはこちら](docker.md)
 
 ## 自分でビルドする
 
-自分で一からビルドしてcitaitonを構築する方法です。
+自分で一からビルドして citaiton を構築する方法です。
 
 [詳しくはこちら](self-build.md)
 
-::: warning 
+::: warning
 
-自力でビルドするこの方法を行うには事前にJava 17環境を用意する必要があります。
+自力でビルドするこの方法を行うには事前に Java 17 環境を用意する必要があります。
 
 この先のガイドでは特にこの環境を揃えていることを前提として進めます。
 

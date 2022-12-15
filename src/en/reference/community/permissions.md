@@ -32,7 +32,7 @@ You can open the linking service by following the steps below.
 
 ![Federated Services](../../../image/reference/community/ja/bots.png)
 
-::: 
+:::
 
 ::: warning Members not restricted by commands
 
@@ -50,13 +50,13 @@ Remember that `@everyone` is the default value, so setting `@everyone` will affe
 
 The `Channel` sector allows you to set per-channel settings. **If you select a channel, you will not be able to use any commands on that channel. **
 
-All Channels` is the default value, so setting `All Channels` will disable commands on all channels except those that are set individually.
+All Channels`is the default value, so setting`All Channels` will disable commands on all channels except those that are set individually.
 
 ### Setting per command
 
 You can have per-command settings from the `command` sector. This takes precedence over individual settings for roles, members, channels, etc.
 
-----
+---
 
 Check the Discord Help Center for detailed settings
 
