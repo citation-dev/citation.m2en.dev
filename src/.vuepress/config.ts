@@ -54,11 +54,5 @@ export default {
         sidebar: sidebarEn
       }
     }
-  }),
-
-  plugins: [
-    '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom',
-    '@vuepress/medium-zoom'
-  ]
+  })
 };
