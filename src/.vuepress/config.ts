@@ -29,7 +29,7 @@ export default {
   },
 
   theme: defaultTheme({
-    repo: 'citation-dev/citation',
+    repo: 'citation-dev/citation.m2en.dev',
     repoLabel: 'GitHub',
     editLink: true,
     docsDir: 'src',
