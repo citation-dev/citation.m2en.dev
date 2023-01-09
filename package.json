@@ -29,7 +29,7 @@
     "@typescript-eslint/eslint-plugin": "^5.47.1",
     "eslint": "^8.31.0",
     "@typescript-eslint/parser": "^5.48.0",
-    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-prettier": "^8.6.0",
     "eslint-config-vuepress": "^4.0.4",
     "eslint-plugin-markdown": "^3.0.0",
     "husky": "^8.0.2",
